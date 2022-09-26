@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #2d2d2d;
+}
+
+.desenho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin: 2rem;
+}
+
+.subtitle {
+  margin: 2rem;
+  text-align: center;
+  color: white;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  color: aqua;
+}
