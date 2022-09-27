@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../assets/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+button {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #141414;
+  text-align: center;
+  padding: 5px 10px;
+  margin-left: 0.5rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #141414;
+  font-size: 12pt;
+}
+
+input[type="text"]::placeholder {
+  font-size: 12pt;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.task-item label {
+  margin: 0 10px;
+  font-size: 16pt;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  min-width: 18px;
+  min-height: 18px;
+  margin: 0.5rem 1rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 3rem;
+  font-size: 22pt;
+}
+
+form {
+  margin-top: 1rem;
+}

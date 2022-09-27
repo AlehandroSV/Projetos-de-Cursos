@@ -1,0 +1,81 @@
+:root {
+    --fundo: #141414;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+.logo {
+    height: 75px;
+}
+
+.quemsomos {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.80)), url(../assets/img/capa.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.somos {
+    height: 600px;
+    margin-left: 20px;
+}
+
+.titulo {
+    padding-top: 26rem;
+}
+
+.descricao {
+    width: 300px;
+}
+
+.card {
+    margin: 10px 10px;
+}
+
+.card-group {
+    border-radius: 20px !important;
+}
+
+/* Footer */
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.30);
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.center {
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+.white {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 16pt;
+}
+
+.links {
+    display: flex;
+}
+
+.espace {
+    padding: 0 5px;
+    color: white !important;
+    text-decoration: none !important;
+    margin-bottom: 0.5rem;
+}
+
+.redes {
+    margin-top: 3px;
+}
