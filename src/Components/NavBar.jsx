@@ -24,10 +24,10 @@ const Navbar = () => {
             className="fixed top-6 bottom-0 w-36 -right-full md:w-auto md:static transition-all 
             bg-[#2d2d2d] dark:bg-white text-white dark:text-black my-1 md:my-0"
           >
-            <ul className="md:flex items-center gap-8 my-3">
+            <ul className="md:flex items-center gap-8 my-3 mx-20">
               <li>
                 <a
-                  className="md:block flex justify-center md:my-0 md:py-0 py-2 my-2"
+                  className="md:block flex justify-center md:my-0 md:py-0 py-2"
                   href="#"
                 >
                   <div className="tooltip relative">
