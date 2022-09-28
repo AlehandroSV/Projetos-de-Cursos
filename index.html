@@ -1,228 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/Styles/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/Particles-dark.css" />
-    <link rel="stylesheet" href="./CSS/Particles.css" />
 
-    <title>Conectando Projetos</title>
+    <title>Projetos</title>
   </head>
   <body
-    class="text-black dark:text-white font-['Poppins'] bg-white dark:bg-[#141414]"
+    class="text-dark dark:text-white bg-white dark:bg-[#2d2d2d] font-['Poppins']"
   >
-    <div class="Particulas">
-      <div class="animation-wrapper">
-        <div class="particle particle-1"></div>
-        <div class="particle particle-2"></div>
-        <div class="particle particle-3"></div>
-        <div class="particle particle-4"></div>
-      </div>
-
-      <div class="animation-container">
-        <div class="particle-dark particle-01"></div>
-        <div class="particle-dark particle-02"></div>
-        <div class="particle-dark particle-03"></div>
-        <div class="particle-dark particle-04"></div>
-      </div>
-    </div>
-
-    <header class="relative"></header>
-
-    <main class="relative">
-      <h2 class="text-center font-bold text-[30px]" id="devsamurai">
-        Dev Samurai
-      </h2>
-      <section class="DevSamurai flex my-2 mx-2 gap-3" id="DevSamurai">
-        <div class="PingPong flex justify-center">
-          <div class="rounded-lg shadow-lg max-w-sm bg-white dark:bg-gray-700">
-            <div class="flex justify-center">
-              <img
-                class="rounded-t-md w-[400px]"
-                src="https://user-images.githubusercontent.com/100285156/192536192-faed00f9-c9ea-486d-a914-9ce1c4a54156.png"
-                alt="Imagem representando Projeto"
-              />
-            </div>
-            <div class="p-6 border-t">
-              <h5 class="text-xl mb-2 font-bold truncate">Ping-Pong</h5>
-              <p class="text-base mb-4 h-[90px]">
-                Jogo simples de Ping-Pong desenvolvido no curso do Dev Samurai,
-                utilizando JavaScript, HTML e CSS.
-              </p>
-              <div class="flex justify-center">
-                <a href="./DevSamurai/Ping-Pong/index.html">
-                  <button
-                    type="button"
-                    class="rounded-lg px-4 py-1.5 font-medium bg-white dark:bg-gray-700 border border-gray-700 dark:border-white"
-                  >
-                    Ping-Pong
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <h2 class="text-center font-bold text-[30px] mt-20" id="dio">
-        Digital Innovation One Inc
-      </h2>
-      <section class="DIO flex my-2 mx-2 gap-3" id="DIO">
-        <!-- Jogo da Cobrinha -->
-        <div class="JogoCobrinha flex justify-center">
-          <div class="rounded-lg shadow-lg max-w-sm bg-white dark:bg-gray-700">
-            <div class="flex justify-center">
-              <img
-                class="rounded-t-md w-[400px]"
-                src="https://user-images.githubusercontent.com/100285156/192543850-861adea3-837d-45f9-b580-1314917fa780.png"
-                alt="Imagem representando Projeto"
-              />
-            </div>
-            <div class="p-6 border-t">
-              <h5 class="text-xl mb-2 font-bold truncate">Jogo da Cobrinha</h5>
-              <p class="text-base mb-4 h-[90px]">
-                Jogo simples da Cobrinha desenvolvido no curso da DIO utilizando
-                JavaScript, HTML e CSS.
-              </p>
-              <div class="flex justify-center">
-                <a
-                  href="./Digital Innovation One Inc/Jogo da Cobrinha/index.html"
-                >
-                  <button
-                    type="button"
-                    class="rounded-lg px-4 py-1.5 font-medium bg-white dark:bg-gray-700 border border-gray-700 dark:border-white"
-                  >
-                    Jogo da Cobrinha
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Clone NetFlix -->
-        <div class="CloneNetflix flex justify-center">
-          <div class="rounded-lg shadow-lg max-w-sm bg-white dark:bg-gray-700">
-            <div class="flex justify-center">
-              <img
-                class="rounded-t-md w-[400px]"
-                src="https://user-images.githubusercontent.com/100285156/192536429-4aed74fe-0872-4d1d-b9ec-8374f8df2705.png"
-                alt="Imagem representando Projeto"
-              />
-            </div>
-            <div class="p-6 border-t">
-              <h5 class="text-xl mb-2 font-bold truncate">Clone Netflix</h5>
-              <p class="text-base mb-4 h-[90px]">
-                Clone da Netflix feito na DIO utilizando JavaScript, HTML, CSS,
-                Bootstrap e OWL Carousel (jQuery)
-              </p>
-              <div class="flex justify-center">
-                <a href="./Digital Innovation One Inc/Clone Netflix/index.html">
-                  <button
-                    type="button"
-                    class="rounded-lg px-4 py-1.5 font-medium bg-white dark:bg-gray-700 border border-gray-700 dark:border-white"
-                  >
-                    Clone Netflix
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Clone Instagram -->
-        <div class="CloneInstagram flex justify-center">
-          <div class="rounded-lg shadow-lg max-w-sm bg-white dark:bg-gray-700">
-            <div class="flex justify-center">
-              <img
-                class="rounded-t-md w-[400px]"
-                src="https://user-images.githubusercontent.com/100285156/192537504-779a7b99-0b07-4274-a999-4da3f98dbc81.png"
-                alt="Imagem representando Projeto"
-              />
-            </div>
-            <div class="p-6 border-t">
-              <h5 class="text-xl mb-2 font-bold truncate">Clone Instagram</h5>
-              <p class="text-base mb-4 h-[90px]">
-                Clone do Instagram feito na DIO utilizando HTML e CSS
-                (Atualização assim que possível)
-              </p>
-              <div class="flex justify-center">
-                <a
-                  href="./Digital Innovation One Inc/Login Instagram/index.html"
-                >
-                  <button
-                    type="button"
-                    class="rounded-lg px-4 py-1.5 font-medium bg-white dark:bg-gray-700 border border-gray-700 dark:border-white"
-                  >
-                    Clone Instagram
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Mundo Invertido -->
-        <div class="MundoInvertido flex justify-center">
-          <div class="rounded-lg shadow-lg max-w-sm bg-white dark:bg-gray-700">
-            <div class="flex justify-center">
-              <img
-                class="rounded-t-md w-[400px]"
-                src="https://user-images.githubusercontent.com/100285156/192538273-e6fb5abb-5de1-4a4b-9adf-db501823ec5e.png"
-                alt="Imagem representando Projeto"
-              />
-            </div>
-            <div class="p-6 border-t">
-              <h5 class="text-xl mb-2 font-bold truncate">Mundo Invertido</h5>
-              <p class="text-base mb-4 h-[90px]">
-                Página feita em um evento da DIO inspirado na série Stranger
-                Things utilizando HTML, CSS, JavaScript e FireBase
-              </p>
-              <div class="flex justify-center">
-                <a
-                  href="./Digital Innovation One Inc/Mundo Invertido/index.html"
-                >
-                  <button
-                    type="button"
-                    class="rounded-lg px-4 py-1.5 font-medium bg-white dark:bg-gray-700 border border-gray-700 dark:border-white"
-                  >
-                    Mundo Invertido
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <h2 class="text-center font-bold text-[30px] mt-20" id="Rocketseat">
-        Rocketseat
-      </h2>
-      <section
-        class="Rocketseat flex my-2 mx-2 gap-3"
-        id="Rocketseat"
-      ></section>
-    </main>
-
-    <a href="./Rocketseat/Maratona Explorer/index.html"
-      >Cardápio | Maratona Explorer</a
-    >
-    <a href="./Digital Innovation One Inc/Contador Simples/index.html"
-      >Contador</a
-    >
-    <a href="./Digital Innovation One Inc/To-Do List/index.html">To-Do List</a>
-    <a href="./Digital Innovation One Inc/Landing Page Bootstrap/index.html"
-      >Landing Page Bootstrap</a
-    >
-
-    <script src="https://cdn.tailwindcss.com"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
