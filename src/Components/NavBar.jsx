@@ -24,7 +24,7 @@ const Navbar = () => {
             className="fixed top-6 bottom-0 w-36 -right-full md:w-auto md:static transition-all 
             bg-[#2d2d2d] dark:bg-white text-white dark:text-black my-1 md:my-0"
           >
-            <ul className="md:flex items-center gap-8 my-3 mx-20">
+            <ul className="md:flex items-center gap-8 my-3 mx-10">
               <li>
                 <a
                   className="md:block flex justify-center md:my-0 md:py-0 py-2"
@@ -39,24 +39,11 @@ const Navbar = () => {
               <li>
                 <a
                   className="md:block flex justify-center md:my-0 md:py-0 py-2 my-2"
-                  href="#"
+                  href="#footer"
                 >
                   <div className="tooltip relative">
                     <FaHandsHelping size={24} />
                     <span className="tooltiptext md:block hidden">Contato</span>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="md:block flex justify-center md:my-0 md:py-0 py-2 my-2"
-                  href="#"
-                >
-                  <div className="tooltip relative">
-                    <FaBook size={24} />
-                    <span className="tooltiptext md:block hidden">
-                      Intituições
-                    </span>
                   </div>
                 </a>
               </li>

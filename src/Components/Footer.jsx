@@ -4,7 +4,10 @@ import { FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer className="mt-10 bg-[#2d2d2d] dark:bg-white text-white dark:text-black">
+      <footer
+        className="mt-10 bg-[#2d2d2d] dark:bg-white text-white dark:text-black"
+        id="footer"
+      >
         <h3 className="text-center font-semibold text-xl">Redes Sociais</h3>
         <div className="flex justify-center">
           <div className="flex gap-3">
