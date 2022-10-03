@@ -11,6 +11,18 @@ function App() {
         <NavBar />
 
         <h2 className="mt-10 mb-2 font-bold text-center text-3xl">
+          Projetos Pessoais
+        </h2>
+        <div className="flex gap-4 flex-wrap justify-center">
+          <Card
+            url="https://user-images.githubusercontent.com/100285156/193483195-665e40c5-6b59-412f-85f1-7aa887a4a06b.png"
+            alt="Imagem de Cards GitHub"
+            title="Cards GitHub"
+            description="Projeto feito para buscar perfis do GitHub e gerar um card com as principais informações, utilizando JavaScript, AJAX, HTML e CSS"
+            href="/Pessoais/Card API/index.html"
+          />
+        </div>
+        <h2 className="mt-10 mb-2 font-bold text-center text-3xl">
           Dev Samurai
         </h2>
         <div className="flex gap-4 flex-wrap justify-center">

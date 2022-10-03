@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>P.P.T.</title>
+  </head>
+  <body>
+    <h1>Pedra, Papel e Tesoura</h1>
+
+    <div class="scoreboard">
+      <div class="player">
+        <div class="title">
+          <h2 class="name" id="playerName">Player</h2>
+          <span class="points" id="playerPoint">0</span>
+        </div>
+
+        <ul class="listChoice">
+          <li class="inline">
+            <a class="selectPlayer" id="pedra">
+              <img
+                class="imageChoice"
+                src="./img/pedra.png"
+                alt="Imagem com mão de pedra"
+              />
+            </a>
+          </li>
+          <li class="inline">
+            <a class="selectPlayer" id="papel">
+              <img
+                class="imageChoice"
+                src="./img/papel.png"
+                alt="Imagem com mão de papel"
+              />
+            </a>
+          </li>
+          <li class="inline">
+            <a class="selectPlayer" id="tesoura">
+              <img
+                class="imageChoice"
+                src="./img/tesoura.png"
+                alt="Imagem com mão de tesoura"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="versus">
+        <span class="vs">VS</span>
+      </div>
+
+      <div class="computer">
+        <div class="title">
+          <h2 class="name">Computer</h2>
+          <span class="points" id="computerPoint">0</span>
+        </div>
+
+        <ul class="listChoice">
+          <li class="inline">
+            <a class="selectComputer">
+              <img
+                class="imageChoice"
+                src="./img/pedra.png"
+                alt="Imagem com mão de pedra"
+              />
+            </a>
+          </li>
+          <li class="inline">
+            <a class="selectComputer">
+              <img
+                class="imageChoice"
+                src="./img/papel.png"
+                alt="Imagem com mão de papel"
+              />
+            </a>
+          </li>
+          <li class="inline">
+            <a class="selectComputer">
+              <img
+                class="imageChoice"
+                src="./img/tesoura.png"
+                alt="Imagem com mão de tesoura"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="message" id="message"></div>
+
+    <button class="defineNome" onclick="defineNome()">Coloque seu nome</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2d2d2d;
+}
+
+.form {
+  margin: 1rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user {
+  color: black;
+  width: 20rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.verif {
+  color: black;
+  padding: 0.2rem 0.5rem;
+  margin: 1rem 0 0 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+}
+
+.avatar {
+  width: 30%;
+  border-radius: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.total {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+.bio {
+  font-size: 2vw;
+  text-align: center;
+}
+
+.noselect {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+span {
+  font-weight: normal;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.error.yes {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.error.no {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .bio {
+    font-size: 16px;
+  }
+}

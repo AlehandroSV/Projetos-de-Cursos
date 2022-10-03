@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Gerador de Card</title>
+  </head>
+  <body>
+    <div class="form">
+      <input
+        id="userName"
+        type="text"
+        class="user"
+        placeholder="Coloque somente o usuário ex: AlehandroSV"
+      />
+      <button type="button" class="verif" onclick="userConfirm()">
+        Verificar User
+      </button>
+    </div>
+
+    <h3 class="error no" id="error">
+      Usuário inexistente, ajuste e tente novamente...
+    </h3>
+
+    <div class="card">
+      <img class="avatar" id="imagem" />
+      <h1 id="name"></h1>
+
+      <div class="info">
+        <p id="bio" class="bio"></p>
+        <div class="total">
+          <p id="addFollowers"></p>
+          <p id="addFollowing"></p>
+        </div>
+        <div class="social">
+          <div id="twitter">
+            <span id="userTwitter"></span>
+          </div>
+          <div id="company">
+            <span id="nameCompany"></span>
+          </div>
+          <div id="repos"></div>
+          <div id="github"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- External Import -->
+    <script
+      src="https://kit.fontawesome.com/74adac6a14.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Internal Import -->
+    <script src="./script.js"></script>
+  </body>
+</html>
