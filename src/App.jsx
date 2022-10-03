@@ -22,6 +22,7 @@ function App() {
             href="/Pessoais/Card API/index.html"
           />
         </div>
+
         <h2 className="mt-10 mb-2 font-bold text-center text-3xl">
           Dev Samurai
         </h2>
@@ -33,6 +34,13 @@ function App() {
             description="Jogo simples de Ping-Pong desenvolvido no curso do Dev Samurai,
             utilizando JavaScript, HTML e CSS."
             href="/Cursos/DevSamurai/Ping-Pong/index.html"
+          />
+          <Card
+            url="https://user-images.githubusercontent.com/100285156/193483481-197ce81a-8866-451d-aa9e-978ad598e0ff.png"
+            alt="Imagem do Jogo P.P.T"
+            title="Jogo P.P.T"
+            description="Jogo simples de Pedra papel e tesoura, utilizando JavaScript, HTML e CSS."
+            href="/Cursos/DevSamurai/P.P.T/index.html"
           />
         </div>
 
