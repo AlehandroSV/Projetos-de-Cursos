@@ -1,5 +1,4 @@
 // Import Components
-import Background from "./Components/Background/Background";
 import NavBar from "./Components/NavBar";
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
@@ -125,7 +124,6 @@ function App() {
 
         <Footer />
       </div>
-      <Background />
     </>
   );
 }
