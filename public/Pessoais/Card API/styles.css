@@ -58,7 +58,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  gap: 5rem;
+  gap: 10rem;
 }
 
 p {
@@ -67,7 +67,6 @@ p {
 
 .bio {
   font-size: 2vw;
-  text-align: center;
 }
 
 .noselect {
@@ -90,6 +89,7 @@ span {
 a {
   all: unset;
   cursor: pointer;
+  color: aqua;
 }
 
 .error.yes {
@@ -101,8 +101,10 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
-  .bio {
-    font-size: 16px;
-  }
+.iconOff {
+  display: none !important;
+}
+
+i {
+  padding: 0 0.5rem 0 0;
 }

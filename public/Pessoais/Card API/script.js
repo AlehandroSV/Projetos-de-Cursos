@@ -12,10 +12,10 @@ let addFollowers = document.getElementById("addFollowers");
 let addFollowing = document.getElementById("addFollowing");
 
 // Redes
-let twitter = document.getElementById("twitter");
-let company = document.getElementById("company");
-let repos = document.getElementById("repos");
-let github = document.getElementById("github");
+let twitter = document.getElementById("urlTwitter");
+let company = document.getElementById("nameCompany");
+let repos = document.getElementById("numRepos");
+let github = document.getElementById("url");
 
 const userConfirm = () => {
   let fixa = `https://api.github.com/users/${user.value}`;
@@ -46,70 +46,48 @@ const userConfirm = () => {
 
       bio.innerText = resposta.bio;
 
-      addFollowers.innerText = `Follower: ${resposta.followers}`;
+      addFollowers.innerText = `Followers: ${resposta.followers}`;
 
-      addFollowing.innerText = `Following: ${resposta.following}`;
+      addFollowing.innerText = `Followings: ${resposta.following}`;
       resposta.following;
 
       // Confirma se tem Twitter
       let confirmTwitter = resposta.twitter_username;
       if (confirmTwitter !== null) {
-        let iconTwitter = document.createElement("i");
-        iconTwitter.classList.add("fa-brands");
-        iconTwitter.classList.add("fa-twitter");
-        iconTwitter.style.padding = "0 0.5rem 0 0";
+        document.getElementById("twitter").classList.remove("iconOff");
 
-        let twitter_username = document.createElement("span");
-        twitter_username.innerText = `@${resposta.twitter_username}`;
+        twitter.innerText = resposta.twitter_username;
 
-        twitter.appendChild(iconTwitter);
-        twitter.appendChild(twitter_username);
+        document
+          .getElementById("urlTwitter")
+          .setAttribute(
+            "href",
+            `https://twitter.com/${resposta.twitter_username}`
+          );
       }
 
       // Confirma se tem Company
       let confirmCompany = resposta.company;
       if (confirmCompany !== null) {
-        let iconCompany = document.createElement("i");
-        iconCompany.classList.add("fa-solid");
-        iconCompany.classList.add("fa-building");
-        iconCompany.style.padding = "0 0.5rem 0 0";
-
-        let nameCompany = document.createElement("span");
-        nameCompany.innerText = resposta.company;
-
-        company.appendChild(iconCompany);
-        company.appendChild(nameCompany);
+        document.getElementById("company").classList.remove("iconOff");
+        company.innerText = resposta.company;
       }
 
       // Confirma se tem Repositório
       let confirmRepos = resposta.public_repos;
       if (confirmRepos !== null) {
-        let iconRepo = document.createElement("i");
-        iconRepo.classList.add("fa-solid");
-        iconRepo.classList.add("fa-file-code");
-        iconRepo.style.padding = "0 0.5rem 0 0";
-
-        let numberRepos = document.createElement("span");
-        numberRepos.innerText = `${resposta.public_repos} Repositórios públicos`;
-
-        repos.appendChild(iconRepo);
-        repos.appendChild(numberRepos);
+        document.getElementById("repos").classList.remove("iconOff");
+        repos.innerText = `${resposta.public_repos} Repositórios públicos`;
       }
 
       // ADD Link GitHub
       let confirmGitHub = resposta.html_url;
       if (confirmGitHub !== null) {
-        let iconGitHub = document.createElement("i");
-        iconGitHub.classList.add("fa-brands");
-        iconGitHub.classList.add("fa-github");
-        iconGitHub.style.padding = "0 0.5rem 0 0";
+        document.getElementById("github").classList.remove("iconOff");
 
-        let urlGitHub = document.createElement("a");
-        urlGitHub.setAttribute("href", resposta.html_url);
-        urlGitHub.innerText = resposta.login;
+        github.innerText = resposta.login;
 
-        github.appendChild(iconGitHub);
-        github.appendChild(urlGitHub);
+        document.getElementById("url").setAttribute("href", resposta.html_url);
       }
     })
     .catch((erro) => {
