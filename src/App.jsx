@@ -41,6 +41,20 @@ function App() {
             description="Jogo simples de Pedra papel e tesoura, utilizando JavaScript, HTML e CSS."
             href="/Cursos/DevSamurai/P.P.T/index.html"
           />
+          <Card
+            url="https://user-images.githubusercontent.com/100285156/197080730-51392047-dfbb-49f0-a1e5-09e0b1ded76c.png"
+            alt="Lista de Convidados"
+            title="Lista de Convidados"
+            description="Lista de convidados feita com JavaScript, HTML e CSS, utilizando também o LocalStorage para salva a lista de convidados."
+            href="/Cursos/DevSamurai/lista de convidados/index.html"
+          />
+          <Card
+            url="https://user-images.githubusercontent.com/100285156/197081035-8018651e-4447-47fe-b406-5d3ed21248af.png"
+            alt="Consumindo API do GitHub"
+            title="Consumindo API do GitHub"
+            description="Paginá simples consumindo a API do GitHub, feito com JavaScript, HTML e CSS, utilizando para fazer o consumo o AJAX."
+            href="/Cursos/DevSamurai/Projeto AJAX/index.html"
+          />
         </div>
 
         <h2 className="mt-10 mb-2 font-bold text-center text-3xl">
