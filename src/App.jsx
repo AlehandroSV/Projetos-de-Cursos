@@ -114,6 +114,13 @@ function App() {
             description="Contador de Clicks simples feito com JavaScript, HTML e CSS"
             href="/Cursos/Digital Innovation One Inc/Contador Simples/index.html"
           />
+          <Card
+            url="https://user-images.githubusercontent.com/100285156/197780339-8be64d65-c5e1-483d-93e7-0b03a2d017b3.png"
+            alt="Imagem mostrando contador"
+            title="Pokedex (PokeAPI)"
+            description="Pokedex feita no bootcamp da DIO juntamento com banco Inter, desenvolvida em HTML, CSS e JS"
+            href="/Cursos/Digital Innovation One Inc/pokedex/index.html"
+          />
         </div>
 
         <h2 className="mt-10 mb-2 font-bold text-center text-3xl">
