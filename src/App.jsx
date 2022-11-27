@@ -121,6 +121,13 @@ function App() {
             description="Pokedex feita no bootcamp da DIO juntamento com banco Inter, desenvolvida em HTML, CSS e JS"
             href="/Cursos/Digital Innovation One Inc/pokedex/index.html"
           />
+          <Card
+            url="https://user-images.githubusercontent.com/100285156/204166711-8c2574e0-4a4b-4947-98e4-ed932d19a026.png"
+            alt="Imagem mostrando contador"
+            title="Pokedex (PokeAPI)"
+            description="Calculadora Feita em React utilizando Styled-Components"
+            href="/Cursos/Digital Innovation One Inc/CalculadoraReact/index.html"
+          />
         </div>
 
         <h2 className="mt-10 mb-2 font-bold text-center text-3xl">
